@@ -833,6 +833,21 @@ section {
   }
 }
 
+/* Roadmap */
+
+.roadmap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Courses Hero Title */
+
+#hero_courses {
+  text-align:center;
+}
+
 /*--------------------------------------------------------------
 # Cource Details
 --------------------------------------------------------------*/
