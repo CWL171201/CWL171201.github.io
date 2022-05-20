@@ -4,6 +4,26 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+  /**
+   * Function to scroll to an element with top ofset
+   */
+  function scrollto(el) {
+    const selectHeader = document.querySelector('#header');
+    let offset = 0;
+
+    if (selectHeader.classList.contains('sticked')) {
+      offset = document.querySelector('#header.sticked').offsetHeight;
+    } else if (selectHeader.hasAttribute('data-scrollto-offset')) {
+      offset = selectHeader.offsetHeight - parseInt(selectHeader.getAttribute('data-scrollto-offset'));
+    }
+    window.scrollTo({
+      top: document.querySelector(el).offsetTop - offset,
+      behavior: 'smooth'
+    });
+  }
+
+
 (function() {
   "use strict";
 
