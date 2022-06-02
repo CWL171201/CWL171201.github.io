@@ -466,8 +466,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: url("../img/hero1.jpg") top center;
+  height: 60vh;
+  background: url("../img/homepage2.gif") top center;
   background-size: cover;
   position: relative;
 }
