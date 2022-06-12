@@ -15,7 +15,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+footer, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -25,7 +25,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, hgroup, menu, nav, section {
 	display: block;}
 
 body {
@@ -2866,7 +2866,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	header p {
+	/*header p {
 		color: rgba(255, 255, 255, 0.35);
 		position: relative;
 		margin: 0 0 1.5em 0;
@@ -2890,7 +2890,7 @@ input, select, textarea {
 		font-size: 0.9em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
-	}
+	} */
 
 /* Split */
 
@@ -3368,13 +3368,13 @@ input, select, textarea {
 		}
 
 /* Header */
-
+/*
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6; /* here */
+		background-color: #5e42a6; 
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3427,7 +3427,7 @@ input, select, textarea {
 
 						#header > nav > ul > li a.active {
 							color: #ffffff;
-						}
+						} 
 
 		@media screen and (max-width: 736px) {
 
@@ -3464,7 +3464,7 @@ input, select, textarea {
 							line-height: 6em;
 						}
 
-		}
+		}*/
 
 /* Wrapper (main) */
 
@@ -3489,7 +3489,7 @@ input, select, textarea {
 
 		}
 
-	#header + #wrapper > .wrapper > .inner {
+	 #wrapper > .wrapper > .inner {
 		margin:0 auto;
 	}
 
@@ -3520,7 +3520,7 @@ input, select, textarea {
 		color: rgba(245, 40, 145, 0.8);
 	}
 
-	#header + #wrapper + #footer > .inner {
+	 #wrapper + #footer > .inner {
 		margin: 0 auto;
 	}
 
